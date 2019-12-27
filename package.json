@@ -1,35 +1,17 @@
 {
-  "name": "thelounge-theme-mininapse",
-  "version": "2.0.19",
-  "description": "A dark, minimal theme for thelounge",
-  "main": "package.json",
-  "thelounge": {
-    "css": "mininapse.css",
-    "name": "Mininapse",
-    "type": "theme",
-    "themeColor": "#282525"
-  },
-  "license": "MIT",
-  "homepage": "https://minidigger.github.io/thelounge-theme-mininapse",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/MiniDigger/thelounge-theme-mininapse.git"
-  },
-  "keywords": [
-    "thelounge",
-    "thelounge-theme",
-    "minidigger",
-    "dark"
-  ],
-  "bugs": {
-    "url": "https://github.com/MiniDigger/thelounge-theme-mininapse/issues"
-  },
-  "devDependencies": {
-    "stylelint": "12.0.1",
-    "stylelint-config-standard": "19.0.0"
-  },
-  "scripts": {
-    "test": "stylelint mininapse.css",
-    "fixLint": "stylelint mininapse.css --fix"
-  }
+	"name": "thelounge-theme-gruvbox",
+	"version": "2.0.19",
+	"description": "A dark, minimal theme for thelounge",
+	"main": "package.json",
+	"thelounge": {
+		"css": "gruvbox.css",
+		"name": "Gruvbox",
+		"type": "theme",
+		"themeColor": "#282828"
+	},
+	"license": "GPLv3",
+	"keywords": [
+		"thelounge",
+		"thelounge-theme"
+	]
 }
