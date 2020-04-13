@@ -296,11 +296,7 @@ textarea::placeholder,
 }
 
 #chat .self {
-	background: linear-gradient(
-		to right,
-		var(--date-marker-color) 5px,
-		var(--body-bg-color) 5px
-	);
+	border-left: 5px solid var(--body-color-muted);
 }
 
 #chat .self .content {
