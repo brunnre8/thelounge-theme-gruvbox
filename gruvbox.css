@@ -377,3 +377,17 @@ code {
 #image-viewer.opened {
 	backdrop-filter: blur(2px);
 }
+
+.mentions-popup {
+	border-color: var(--highlight-bg-color);
+	border-radius: 5px;
+	border-style: solid;
+}
+
+.mentions-popup .msg .content {
+	background-color: inherit;
+}
+
+.mentions-popup .msg .from {
+	color: var(--highlight-bg-color);
+}
