@@ -164,6 +164,16 @@ Installation instructions can be found at https://thelounge.chat/docs/server/con
 	}
 }
 
+
+.channel-list-item.is-muted {
+	opacity: unset; /* the default is a bit aggressive */
+}
+
+.channel-list-item.is-muted::after {
+	content: "☣";
+}
+
+
 .channel-list-item,
 #sidebar .empty {
 	color: var(--body-color);
