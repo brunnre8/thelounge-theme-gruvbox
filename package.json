@@ -1,13 +1,17 @@
 {
 	"name": "thelounge-theme-gruvbox",
-	"version": "2.0.19",
-	"description": "A dark, minimal theme for thelounge",
+	"version": "2.0.0",
+	"description": "The only theme you'll ever need ;P",
 	"main": "package.json",
 	"thelounge": {
 		"css": "gruvbox.css",
 		"name": "Gruvbox",
 		"type": "theme",
 		"themeColor": "#282828"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/brunnre8/thelounge-theme-gruvbox.git"
 	},
 	"license": "GPLv3",
 	"keywords": [
