@@ -154,7 +154,8 @@ Installation instructions can be found at https://thelounge.chat/docs/server/con
 #viewport .rt,
 #chat button.menu,
 #chat button.mentions,
-#chat button.search,
+#chat form.message-search button,
+/* #chat button.search, */
 #chat .count::before,
 #form #submit,
 #footer button {
