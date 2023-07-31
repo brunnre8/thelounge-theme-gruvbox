@@ -63,32 +63,32 @@ Installation instructions can be found at https://thelounge.chat/docs/server/con
 
 .user.color-1,
 .user.color-17 {
-	color: #cc241d;
+	color: var(--neutral-red);
 }
 
 .user.color-2,
 .user.color-18 {
-	color: #b16286;
+	color: var(--neutral-purple);
 }
 
 .user.color-3,
 .user.color-19 {
-	color: #d79921;
+	color: var(--neutral-yellow);
 }
 
 .user.color-4,
 .user.color-20 {
-	color: #458588;
+	color: var(--neutral-blue);
 }
 
 .user.color-5,
 .user.color-21 {
-	color: #98971a;
+	color: var(--neutral-green);
 }
 
 .user.color-6,
 .user.color-22 {
-	color: #689d6a;
+	color: var(--neutral-aqua);
 }
 
 .user.color-7,
@@ -123,7 +123,7 @@ Installation instructions can be found at https://thelounge.chat/docs/server/con
 
 .user.color-13,
 .user.color-29 {
-	color: #fb4934;
+	color: var(--bright-red);
 }
 
 .user.color-14,
@@ -138,7 +138,7 @@ Installation instructions can be found at https://thelounge.chat/docs/server/con
 
 .user.color-16,
 .user.color-32 {
-	color: #689d6a;
+	color: var(--dim-purple);
 }
 
 /* Borders */
