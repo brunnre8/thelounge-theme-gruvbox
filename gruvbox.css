@@ -4,7 +4,46 @@ A dark theme for TheLounge IRC client
 
 Installation instructions can be found at https://thelounge.chat/docs/server/configuration.html#theme
 */
-@import 'default.css';
+:root {
+	/* gruvbox */
+	--bg-hard: #1d2021;
+	--bg: #282828;
+	--bg-soft: #32302f;
+	--bg1: #3c3836;
+	--bg2: #504945;
+	--bg3: #665c54;
+	--bg4: #7c6f64;
+	--gray-245: #928374;
+	--gray-244: #928374;
+	--fg-hard: #f9f5d7;
+	--fg: #fbf1c7;
+	--fg-soft: #f2e5bc;
+	--fg1: #ebdbb2;
+	--fg2: #d5c4a1;
+	--fg3: #bdae93;
+	--fg4: #a89984;
+	--bright-red: #fb4934;
+	--bright-green: #b8bb26;
+	--bright-yellow: #fabd2f;
+	--bright-blue: #83a598;
+	--bright-purple: #d3869b;
+	--bright-aqua: #8ec07c;
+	--bright-orange: #fe8019;
+	--neutral-red: #cc241d;
+	--neutral-green: #98971a;
+	--neutral-yellow: #d79921;
+	--neutral-blue: #458588;
+	--neutral-purple: #b16286;
+	--neutral-aqua: #689d6a;
+	--neutral-orange: #d65d0e;
+	--dim-red: #9d0006;
+	--dim-green: #79740e;
+	--dim-yellow: #b57614;
+	--dim-blue: #076678;
+	--dim-purple: #8f3f71;
+	--dim-aqua: #427b58;
+	--dim-orange: #af3a03;
+}
 
 :root {
 	--body-color: #ebdbb2;
