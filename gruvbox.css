@@ -46,19 +46,19 @@ Installation instructions can be found at https://thelounge.chat/docs/server/con
 }
 
 :root {
-	--body-color: #ebdbb2;
-	--dim-color: #bdae93;
-	--link-color: #fe8019;
-	--window-bg-color: #282828;
-	--body-bg-color: #282828;
-	--active-bg-color: #3c3836;
-	--dark-bg-color: #1d2021;
-	--date-marker-color: #fe8019;
-	--unread-marker-color: #b8bb26;
-	--highlight-bg-color: #fe8019;
-	--highlight-border-color: #fe8019;
+	--body-color: var(--fg1);
+	--dim-color: var(--fg3);
+	--link-color: var(--bright-orange);
+	--window-bg-color: var(--bg);
+	--body-bg-color: var(--bg);
+	--active-bg-color: var(--bg1);
+	--dark-bg-color: var(--bg-hard);
+	--date-marker-color: var(--bright-orange);
+	--unread-marker-color: var(--bright-green);
+	--highlight-bg-color: var(--bright-orange);
+	--highlight-border-color: var(--bright-orange);
 	--overlay-bg-color: rgba(0, 0, 0, 0.7);
-	--upload-progressbar-color: #fe8019;
+	--upload-progressbar-color: var(--bright-orange);
 }
 
 #chat.colored-nicks .user.color-1,
