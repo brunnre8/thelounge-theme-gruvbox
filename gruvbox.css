@@ -153,6 +153,8 @@ Installation instructions can be found at https://thelounge.chat/docs/server/con
 #viewport .lt,
 #viewport .rt,
 #chat button.menu,
+#chat button.mentions,
+#chat button.search,
 #chat .count::before,
 #form #submit,
 #footer button {
@@ -174,6 +176,8 @@ Installation instructions can be found at https://thelounge.chat/docs/server/con
 #viewport .lt:hover,
 #viewport .rt:hover,
 #chat button.menu:hover,
+#chat button.mentions:hover,
+#chat button.search:hover,
 #form #submit:hover {
 	color: var(--highlight-bg-color);
 }
