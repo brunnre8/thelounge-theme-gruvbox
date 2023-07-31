@@ -93,27 +93,27 @@ Installation instructions can be found at https://thelounge.chat/docs/server/con
 
 .user.color-7,
 .user.color-23 {
-	color: #acf046;
+	color: var(--bright-green);
 }
 
 .user.color-8,
 .user.color-24 {
-	color: #d5f572;
+	color: var(--bright-purple);
 }
 
 .user.color-9,
 .user.color-25 {
-	color: #499e8d;
+	color: var(--bright-yellow);
 }
 
 .user.color-10,
 .user.color-26 {
-	color: #b5ffe1;
+	color: var(--bright-blue);
 }
 
 .user.color-11,
 .user.color-27 {
-	color: #35a7ff;
+	color: var(--bright-aqua);
 }
 
 .user.color-12,
@@ -138,7 +138,7 @@ Installation instructions can be found at https://thelounge.chat/docs/server/con
 
 .user.color-16,
 .user.color-32 {
-	color: var(--dim-purple);
+	color: #499e8d;
 }
 
 /* Borders */
