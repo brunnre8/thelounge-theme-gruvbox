@@ -141,6 +141,11 @@ Installation instructions can be found at https://thelounge.chat/docs/server/con
 	color: #499e8d;
 }
 
+html {
+	scrollbar-color: var(--bg1) var(--bg);
+	scrollbar-width: thin;
+}
+
 /* Borders */
 #chat .content,
 #chat .header,
@@ -209,7 +214,8 @@ Installation instructions can be found at https://thelounge.chat/docs/server/con
 }
 
 .channel-list-item.is-muted {
-	opacity: unset; /* the default is a bit aggressive */
+	opacity: unset;
+	/* the default is a bit aggressive */
 }
 
 .channel-list-item.is-muted::after {
